@@ -1,0 +1,19 @@
+- layout: left
+  company: The Amazon
+  link: amazon.com/in/WW
+  job_title: Senior Manager
+  dates: April 2014 - Present
+  quote: >
+   Mission is to be Earth's most customer-centric company. 
+  description: | # this will include new lines to allow paragraphs
+    I help amazon mission to come true by making kindle ebook purchase experiece better and easier for customers. I lead a team of 10 people and enjoy building systems using new technologies.
+
+- layout: left
+  company: Yahoo
+  link: yahoo.com
+  job_title: Software Developer 
+  dates: June 2011 - April 2014
+  quote: >
+   Former leader of websites that offered news, entertainment, and shopping, as well as search
+  description: | # this will include new lines to allow paragraphs
+    Worked on Content and Platform Group (CPG) and built platform such as Authotization Service and Multi dimensional key value store for all of Yahoo! content processing.

@@ -1,0 +1,15 @@
+#content {
+	padding: calc(100px + 1rem) 1rem 2rem 2rem;
+	color: #222;
+	font-size: 1.8rem;
+	line-height: 1.6;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+#content .links a {
+	height: 32px;
+	width: 32px;
+	margin-right: 1rem;
+	text-decoration: none;
+}

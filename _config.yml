@@ -1,0 +1,58 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+darkmode: true
+
+# Personal info
+name: Arunkumar Shanmugam
+title: Senior Development Manager/Engineer
+email: arunkumar.ss@hotmail.com
+website: arunkumar.ss
+
+# Social links
+twitter_username: arunkumarpsg
+github_username:  ultimatess
+facebook_username: arunkumar.ss
+instagram_username: arunkumarss
+#linkedin_username: jameswgrant
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Arunkumar and I'm a senior engineer and as well as manager. Have experience in building lot of distributed Systesm, optimized for performance and lateny. 
+
+  I am most skilled in: <mark>Buidling Distributed Systems</mark> and <mark>Java Frameworks</mark>. Learning <mark>AWS</mark> and <mark>UI frameworks</mark>
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# Projects Section
+# projects_title: Projects
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in software engineering, some of my other interests and hobbies are:
+   - Fifa and Football
+   - Watch anime(Fullmetal Alchemist and Naruto are my fav)
+   - Farming
+
+#thanks to sproogen@ for resume theme
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
