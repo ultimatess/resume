@@ -6,7 +6,7 @@ darkmode: true
 
 # Personal info
 name: Arunkumar Shanmugam
-title: Senior Development Manager/Engineer
+title: Software Engineer 
 email: arunkumar.ss@hotmail.com
 website: arunkumar.ss
 
@@ -21,7 +21,7 @@ instagram_username: arunkumarss
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Arunkumar and I'm a senior engineer and as well as manager. Have experience in building lot of distributed Systesm, optimized for performance and lateny. 
+  Have experience in building lot of distributed Systesm, optimized for performance and lateny. 
 
   I am most skilled in: <mark>Buidling Distributed Systems</mark> and <mark>Java Frameworks</mark>. Learning <mark>AWS</mark> and <mark>UI frameworks</mark>
 
