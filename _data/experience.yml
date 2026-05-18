@@ -1,19 +1,24 @@
 - layout: left
-  company: The Amazon
-  link: amazon.com/in/WW
-  job_title: Software Manager
-  dates: April 2014 - Present
+  company: Amazon
+  link: amazon.com
+  job_title: Senior Engineering Manager
+  dates: Apr 2014 - Present
   quote: >
-   Mission is to be Earth's most customer-centric company. 
-  description: | # this will include new lines to allow paragraphs
-    I help amazon mission to come true by making kindle ebook purchase experiece better and easier for customers. I lead a team of 10 people and enjoy building systems using new technologies.
+    Progression: SDE (2014) → SDM L5 (2017) → SDM L6 (2019) → Sr. Manager (2024 → Present)
+  description: |
+    Lead a multi-team engineering organization (~60 engineers, 4 managers) responsible for digital books purchase, payments, and content experience worldwide. Work spans high-throughput Java services, interoperability with other orgs, and the platform layer that lets product teams ship without re-inventing the wheel each time.
+
+    **Recent focus areas:**
+    - Frictionless Buying Experience - Continuously optimize the Books purchase and payment flows to deliver a seamless, delightful, and frictionless checkout experience.
+    - AI-native engineering — Turn expert AI workflows into standard developer habits and remove bottlenecks in both code quality and delivery speed.
+    - International payments — new methods, compliance work, and platform consolidation across multiple marketplaces    
 
 - layout: left
-  company: Yahoo
+  company: Yahoo!
   link: yahoo.com
-  job_title: Software Developer 
-  dates: June 2011 - April 2014
+  job_title: Software Developer · Content & Platform Group
+  dates: Jun 2011 - Apr 2014
   quote: >
-   Former leader of websites that offered news, entertainment, and shopping, as well as search
-  description: | # this will include new lines to allow paragraphs
-    Worked on Content and Platform Group (CPG) and built platform such as Authotization Service and Multi dimensional key value store for all of Yahoo! content processing.
+    Content & Platform Group
+  description: |
+    Built foundational platform components used across Yahoo's news, entertainment, search, and shopping properties. Shipped the authorization service that gated content publishing across Yahoo properties, and a multi-dimensional key–value store used as the substrate for content processing pipelines.

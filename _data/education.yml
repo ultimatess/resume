@@ -1,7 +1,8 @@
 - layout: left
-  name: PSG College of Technology
+  name: PSG College of Technology, Coimbatore
+  link: 
   dates: 2007 - 2011
-  qualification: BE Computer Science
+  qualification: B.E. Computer Science & Engineering
   quote: >
-    Established in 1960s, PSG College of Technology is one of the top institution in engineering education and research in India. 
-  description: | # this will include new lines to allow paragraphs
+    B.E. Computer Science & Engineering
+  description: ""
