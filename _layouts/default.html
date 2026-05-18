@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }} - {{ site.title }}</title>
+    <!-- Modern typography: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="name">{{ site.name }}</h1>
+                <h2 class="title">{{ site.title }}</h2>
+                <div class="contact-links">
+                    {% if site.email %}
+                    <a href="mailto:{{ site.email }}" class="btn">Email Me</a>
+                    {% endif %}
+                    {% if site.website %}
+                    <a href="https://{{ site.website }}" target="_blank" class="btn btn-outline">Website</a>
+                    {% endif %}
+                </div>
+                <div class="social-links">
+                    {% if site.linkedin_username %}
+                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+                    {% endif %}
+                    {% if site.instagram_username %}
+                    <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">Instagram</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% if site.about_profile_image %}
+            <div class="hero-image">
+                <img src="{{ site.about_profile_image | relative_url }}" alt="{{ site.name }}" class="avatar-circle">
+            </div>
+            {% endif %}
+        </header>
+
+        <main class="main-content">
+            {{ content }}
+        </main>
+
+        <footer class="footer">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

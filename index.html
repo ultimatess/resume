@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="bento-grid">
+  
+  <!-- About / Bio Card -->
+  <section class="bento-item bento-about">
+    <h2>About</h2>
+    <div class="content markdown-content">
+      {{ site.about_content | markdownify }}
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="bento-item bento-experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+      <article class="timeline-entry">
+        <div class="timeline-header">
+          <h3>{{ job.job_title }}</h3>
+          <span class="company">{{ job.company }}</span>
+        </div>
+        <div class="timeline-meta">
+          <span class="dates">{{ job.dates }}</span>
+        </div>
+        {% if job.quote %}
+        <p class="quote">{{ job.quote }}</p>
+        {% endif %}
+        <div class="content markdown-content">
+          {{ job.description | markdownify }}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Education & Skills Column -->
+  <div class="bento-col">
+    <!-- Education Card -->
+    <section class="bento-item bento-education">
+      <h2>Education</h2>
+      {% for edu in site.data.education %}
+      <article class="edu-entry">
+        <h3>{{ edu.qualification }}</h3>
+        <span class="school">{{ edu.name }}</span>
+        <span class="dates">{{ edu.dates }}</span>
+      </article>
+      {% endfor %}
+    </section>
+
+    <!-- Skills & More Card -->
+    <section class="bento-item bento-skills">
+      <div class="content markdown-content">
+        {{ site.more_content | markdownify }}
+      </div>
+    </section>
+  </div>
+
+</div>
