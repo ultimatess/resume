@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo title=false %}
     <title>{{ site.name }} - {{ site.title }}</title>
     <!-- Modern typography: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +21,8 @@
                     {% if site.email %}
                     <a href="mailto:{{ site.email }}" class="btn">Email Me</a>
                     {% endif %}
-                    {% if site.website %}
-                    <a href="https://{{ site.website }}" target="_blank" class="btn btn-outline">Website</a>
+                    {% if site.projects_url %}
+                    <a href="{{ site.projects_url }}" target="_blank" class="btn btn-outline">Projects</a>
                     {% endif %}
                 </div>
                 <div class="social-links">

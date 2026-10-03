@@ -18,7 +18,5 @@
   link: yahoo.com
   job_title: Software Developer · Content & Platform Group
   dates: Jun 2011 - Apr 2014
-  quote: >
-    Content & Platform Group
   description: |
     Built foundational platform components used across Yahoo's news, entertainment, search, and shopping properties. Shipped the authorization service that gated content publishing across Yahoo properties, and a multi-dimensional key–value store used as the substrate for content processing pipelines.

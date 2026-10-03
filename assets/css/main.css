@@ -304,6 +304,27 @@ a:hover {
   margin-bottom: 0.25rem;
 }
 
+/* Side projects */
+.side-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-list li {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.side-list li:last-child {
+  margin-bottom: 0;
+}
+
+.side-list a {
+  font-weight: 600;
+}
+
 /* Footer */
 .footer {
   text-align: center;

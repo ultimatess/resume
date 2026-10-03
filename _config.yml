@@ -6,8 +6,10 @@ darkmode: true
 # Personal info
 name: Arunkumar Shanmugam
 title: Senior Engineering Manager, Amazon
+description: Senior Engineering Manager at Amazon leading Books & Kindle purchase and payments engineering worldwide.
 email: arunkumar.ss@hotmail.com
 website: arunkumars.in
+projects_url: https://apps.arunkumars.in
 
 # Social links
 linkedin_username: arunkumar-shanmugam-a532b028
@@ -18,9 +20,9 @@ github_username: ultimatess
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Senior Engineering Manager at Amazon, leading engineering for Books and Kindle's purchase and payments experience worldwide. Twelve years building distributed systems at the edge of how millions of customers discover, purchase, pay, reward and read books — most recently steering the org through an AI-native engineering transition and exploring agentic commerce.
+  Senior Engineering Manager at Amazon, leading engineering for Books and Kindle's purchase and payments experience worldwide. Fifteen years building distributed systems at the edge of how millions of customers discover, purchase, pay, reward and read books — most recently steering the org through an AI-native engineering transition and exploring agentic commerce.
 
-  I optimize for mechanisms over heroics, building over discussion, evidence over opinion, proactive over reaction, ambiguity over simplicity.
+  I optimize for mechanisms over heroics, building over discussion, evidence over opinion, proactive over reaction, acting in ambiguity over waiting for clarity.
 
 # Experience Section
 # experience_title: Experience
@@ -35,21 +37,18 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   ## Skills
-  Distributed systems · Java / JVM · AWS · Payments & commerce · Platform engineering · Org design · Mechanism design · Strategy narratives · AI-assisted development · Latency & performance engineering · Peak / capacity planning · Hiring & calibration
+  **Technical:** Distributed systems · Java / JVM · AWS · Payments & commerce · Platform engineering · Latency & performance · Peak / capacity planning · AI-assisted development
+
+  **Leadership:** Org design · Mechanism design · Strategy narratives · Hiring & calibration
 
   ## Off the clock
-  Football and FIFA. Anime — *Fullmetal Alchemist: Brotherhood* and *Naruto* are the desert-island picks. And, increasingly, farming — there is something clarifying about a system whose feedback loop is measured in seasons.
-  New skills unlocked - surfing and pickle ball
+  Football and FIFA. Anime — *Fullmetal Alchemist: Brotherhood* and *Naruto* are the desert-island picks. And, increasingly, farming — there is something clarifying about a system whose feedback loop is measured in seasons. Lately: surfing and pickleball.
 
 #thanks to sproogen@ for resume theme
-
-# Footer
-footer_show_references: true
 
 # Build settings
 # Custom Bespoke Layout - No remote theme
 sass:
-  sass_dir: _sass
   style: compressed
 
 plugins:
